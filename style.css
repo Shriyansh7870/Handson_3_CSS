@@ -1,0 +1,209 @@
+body{
+    background-size: cover;
+    background-image: url("desktop-1280x1024.jpg");
+}
+.first{
+   position:relative;
+  margin-left: 420px;
+   height:150px;
+   width:600px;
+   text-align: center;
+   word-spacing: 4px;
+   line-height: 30px;
+   color: black;
+   font-size: x-large;
+   font-weight: bolder;
+   box-shadow: 0px 0px 12px rgb(235, 23,23);
+   text-shadow: 0px 0px 8px rgb(235, 23, 23);
+   border-radius: 20px;
+   background-color: white;
+   border: 8px solid green;
+}
+.border{
+    height: 670px;
+    width: auto;
+    border: 8px solid greenyellow;
+}
+.container{
+position: relative;
+display: flex;
+
+
+}
+.box{
+    text-align: center;
+    box-shadow: 0px 0px 12px rgb(235, 23,23);
+    text-shadow: 0px 0px 8px rgb(235, 23, 23);
+    border: 6px solid red;
+    background-color:white;
+    color: blue;
+    width: 350px;
+    height:250px;
+    border-radius: 30px;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+}
+.box2{
+    background-size: cover;
+    background-position: center;
+    border: 8px solid red;
+    border-radius: 25px;
+    box-shadow: 0px 0px 12px rgb(235, 23,23);
+    position: relative;
+    left:700px;
+}
+.box3{
+    position: absolute;
+    top:400px;
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border: 8px solid red;
+    box-shadow: 0px 0px 12px rgb(235, 23,23);
+    text-shadow: 0px 0px 8px rgb(235, 23, 23);
+}
+.box4{
+    position: absolute;
+    top:400px;
+    left:1050px;
+    height: 250px;
+    width: 350px;
+    border-radius: 30px;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    border: 8px solid red;
+    box-shadow: 0px 0px 12px rgb(235, 23,23);
+    text-shadow: 0px 0px 8px rgb(235, 23, 23);
+}
+.box5{
+    position: fixed;
+    top:20px;
+    z-index: 1;
+    flex-wrap: wrap-reverse;
+}
+.item_sticky{
+    height: 120px;
+    width:500px;
+    border: 8px solid rebeccapurple;
+    border-radius: 16px;
+    position: relative;
+    background-color: aquamarine;
+    top:550px;
+    left: 500px;
+ 
+   box-shadow: 0px 0px 12px rgb(235, 23,23);
+}
+.item_sticky h3{
+    display: inline-block;
+    font-size: 28px;
+    width: 200px;
+    height: 100px;
+    line-height: 1.5;
+    color: brown;
+    margin: 24px 0px 0px 60px;
+    text-shadow: 0px 0px 8px rgb(235, 23, 23);
+
+}
+.item_sticky p{
+    display: inline-block;
+    font-size: 20px;
+    color:brown;
+    position: absolute;
+    top:16px;
+    right: 20px;
+    text-shadow: 0px 0px 8px rgb(235, 23, 23);
+}
+.store
+{
+    height: 720px;
+    width: 950px;
+    border: 10px solid rgb(124, 4, 154);
+    box-shadow: 0px 0px 16px rgb(235, 23,23);
+    margin: 20px;
+    position: absolute;
+    top:680px;
+    left: 22%;
+}
+.store1{
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 15px;
+    text-align: center;
+    height: 60px;
+    width: auto;
+    background-color: green;
+}
+.store2{
+    position: relative;
+display: flex;
+}
+.store21{
+    text-align: center;
+    border: 6px solid red;
+    background-color:rgb(176, 176, 56);
+    width: 450px;
+    height:300px;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+.store21 h2{
+    text-align: center;
+    margin-top: 5px;
+}
+.store21 p{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;  
+    font-style: italic;
+}
+.store3{
+    background-size: cover;
+    background-position: center;
+    border: 8px solid red;
+    background-color:rgb(176, 176, 56);
+  position: relative;
+  left: 20px;
+    width: 450px;
+}
+.store3 h2{
+    text-align: center;
+}
+.store3 p{
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.5;
+    word-spacing: 10px;
+    font-size: 16px;
+}
+.store4{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    height: 300px;
+    width: auto;
+    background-color: green;
+}
+.store5{
+    top:10px;
+    text-align: center;
+    height: 300px;
+    width: auto;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    word-spacing: 10px;
+    font-size: 20px;
+    background-color:rgb(176, 176, 56);
+}
